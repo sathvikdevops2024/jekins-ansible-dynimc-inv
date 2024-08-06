@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: Ansible_Server
   become: true
   tasks:
     - name: Install Java
